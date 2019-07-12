@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/lightbox.min.css" type="text/css">
+<link rel="stylesheet" href="css/blueberry.css" type="text/css"> 
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    
+<title>Travel,Korea</title>
+</head>
+    
+<body class="home">
+    
+<header>
+<div id="container">
+<h1 class="logo"><a href="index.html">
+    Travel, Korea</a></h1>    
+</div>
+    
+<nav id="primary">
+    <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="cities.html">CITIES</a>
+        <ul class="drop-down">
+        <li><a href="seoul.html">SEOUL</a></li>
+        <li><a href="jeonju.html">JEONJU</a></li>
+        <li><a href="jeju.html">JEJU</a></li>
+        </ul>    
+    </li>
+    <li><a href="food.html">FOOD</a>
+        <ul class="drop-down">
+        <li><a href="kimchi.html">KIMCHI</a></li>
+        <li><a href="bibimbap.html">BIBIMBAP</a></li>
+        <li><a href="tteokbokki.html">TTEOKBOKKI</a></li>
+        <li><a href="bulgogi.html">BULGOGI</a></li>
+        </ul>
+    </li>
+    <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+</header>    
+    
+<div id="wrapper">
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="images/seoullights.jpg" alt="Night Lights in Seoul"></li>
+        <li><img src="images/namdaemun.jpg" alt="Namdaemun"></li>
+        <li><img src="images/seoul-winter.jpg" alt="Winter in Korea"></li>
+        <li><img src="images/seoul-summer.jpg" alt="Summer in Korea"></li>
+      </ul>
+    </div>
+    
+<!--
+<div class="set">   
+<img class="inline-image" src="images/korean-food1.jpg" alt="Korean Food">
+<img class="inline-image" src="images/k-beauty1.jpg" alt="K-beauty">
+<img class="inline-image" src="images/k-pop.jpg" alt="BTS K-pop stars">
+<img class="inline-image" src="images/korean-palace.jpg" alt="Korean Palace">
+</div> 
+-->
+    
+<div class="mainset">
+    
+      <a class="example-image-link" href="images/korean-food.jpg" data-lightbox="example-set" data-title="Korean Food"><img class="example-image" src="images/korean-food-thumb.jpg" alt="Korean Food"/></a>
+    
+      <a class="example-image-link" href="images/k-beauty.jpg" data-lightbox="example-set" data-title="K-Beauty"><img class="example-image" src="images/k-beauty-thumb.jpg" alt="K-Beauty" /></a>
+    
+      <a class="example-image-link" href="images/k-pop.jpg" data-lightbox="example-set" data-title="K-pop, BTS"><img class="example-image" src="images/k-pop-thumb.jpg" alt="K-pop, BTS" /></a>
+    
+      <a class="example-image-link" href="images/korean-palace.jpg" data-lightbox="example-set" data-title="Korean Palace"><img class="example-image" src="images/korean-palace-thumb.jpg" alt="Korean Palace" /></a>
+</div>
+    
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>      
+
+<footer>
+    <ul>
+    <li>Copyright 2019 &copy;</li>
+    <li>All Rights Reserved</li>
+    <li><a href="../index.html">Web Design by Jiyun</a></li>
+    <li><a href="http://validator.w3.org/check?uri=referer">
+    <img src="../images/html5logo.png" alt="HTML5 Logo"></a></li>
+    </ul>
+</footer>    
+    
+</div>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+<!--absolute path-->
+    
+<script src="js/jquery.blueberry.js"></script> 
+<!--local path-->
+    
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>    
+</body>
+</html>
